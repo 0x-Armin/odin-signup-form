@@ -6,3 +6,23 @@
   font-style: normal;
 
 }
+
+body {
+  display: flex;
+  margin: 0;
+}
+
+#left-col {
+  height: 100vh;
+  width: 36%;
+}
+
+#right-col {
+  height: 100vh;
+  width: 64%;
+}
+
+#left-col-img {
+  height: 100%;
+  width: auto;
+}
