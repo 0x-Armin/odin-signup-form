@@ -121,3 +121,16 @@ form button {
 .form-group .error {
   border-color: #cc0000;
 }
+
+/* CSS for informing user that passwords do not match */
+#pwd + span {
+  position: relative;
+}
+
+#pwd + span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  content: "* Passwords do not match";
+  color: #cc0000;
+
+}
