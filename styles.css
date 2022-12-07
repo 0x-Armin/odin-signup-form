@@ -112,4 +112,12 @@ form button {
 .form-group input {
   height: 20px;
   width: 250px;
+
+  border-color: rgba(213, 213, 213, 0.5);
+  border-radius: 3px;
+  border-style: solid;
+}
+
+.form-group .error {
+  border-color: #cc0000;
 }
