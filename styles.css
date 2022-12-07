@@ -83,4 +83,33 @@ body {
 
 #form-container {
   background-color: white;
+
+  padding-top: 2%;
+}
+
+form {
+  padding-left: 5%;
+  padding-top: 1.5%;
+  padding-bottom: 6%;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  gap: 20px 70px;
+
+  font-family: "robotoregular", Arial, Helvetica, sans-serif;
+}
+
+form h3,
+form button {
+  grid-column: span 2; /* let these elements span both columns */
+}
+
+.form-group {
+  /* we use flexbox to place the label and input below each other */
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input {
+  height: 20px;
+  width: 250px;
 }
