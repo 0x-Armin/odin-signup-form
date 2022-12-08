@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Odin Project Sign-up Form</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="signup-logic.js"></script>
 </head>
 
 <body>
@@ -44,12 +45,12 @@
         </div>
         <div class="form-group">
           <label for="pwd">Password</label>
-          <input type="password" id="pwd" name="pwd" class="error" required>
+          <input type="password" id="pwd" name="pwd" class="error" onchange="checkPwdMatch()" required>
           <span></span>
         </div>
         <div class="form-group">
           <label for="cfmPwd">Confirm Password</label>
-          <input type="password" id="cfmPwd" name="cfmPwd" class="error" required>
+          <input type="password" id="cfmPwd" name="cfmPwd" class="error" onchange="checkPwdMatch()" required>
           <span></span>
         </div>
       </form>

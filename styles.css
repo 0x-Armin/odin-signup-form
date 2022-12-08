@@ -109,7 +109,7 @@ form button {
   flex-direction: column;
 }
 
-.form-group input {
+input {
   height: 20px;
   width: 250px;
 
@@ -118,7 +118,7 @@ form button {
   border-style: solid;
 }
 
-.form-group .error {
+.error {
   border-color: #cc0000;
 }
 
