@@ -73,7 +73,7 @@ body {
 }
 
 #right-col-intro {
-  padding-top: 15%;
+  padding-top: 8.3%;
 }
 
 #right-col-order {
@@ -135,17 +135,31 @@ input {
 }
 
 /* Create account button */
-#create-account-btn {
-  height: 50px;
-  width: 240px;
-
+#create-account-btn,
+#end-text {
   margin-top: 3%;
   margin-left: 5%;
 
   font-family: "robotoregular", Arial, Helvetica, sans-serif;
   font-size: 16px;
+}
+
+#create-account-btn {
+  height: 50px;
+  width: 240px;
+
+  
   font-weight: medium;
   color: white;
   background-color: #00007C;
   border-radius: 10px;
+}
+
+#end-text {
+  font-weight: 600;
+}
+
+a:link {
+  text-decoration: none;
+  color: #00007C;
 }

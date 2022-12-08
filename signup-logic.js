@@ -4,7 +4,7 @@ function checkPwdMatch() {
 
   if (pwd.value === cfmPwd.value) {
     pwd.setCustomValidity('');
-    pwd.classList.remove('error');
+    pwd.classList.remove('error')
     cfmPwd.classList.remove('error');
   } else {
     pwd.setCustomValidity('Passwords do not match');
