@@ -122,15 +122,14 @@ form button {
   border-color: #cc0000;
 }
 
-/* CSS for informing user that passwords do not match */
+/* CSS for text informing user that passwords do not match */
 #pwd + span {
   position: relative;
 }
 
-#pwd + span::after {
+#pwd:invalid + span::after {
   font-size: 0.7rem;
   position: absolute;
   content: "* Passwords do not match";
   color: #cc0000;
-
 }
