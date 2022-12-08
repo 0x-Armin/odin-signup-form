@@ -133,3 +133,19 @@ input {
   content: "* Passwords do not match";
   color: #cc0000;
 }
+
+/* Create account button */
+#create-account-btn {
+  height: 50px;
+  width: 240px;
+
+  margin-top: 3%;
+  margin-left: 5%;
+
+  font-family: "robotoregular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: medium;
+  color: white;
+  background-color: #00007C;
+  border-radius: 10px;
+}
